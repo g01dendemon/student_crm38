@@ -4,21 +4,21 @@ export const students = [
         "name": "Anna Cohen",
         "age": 20,
         "group": "React Basics",
-        "iActive": true
+        "isActive": true
     },
     {
         "id": 2,
         "name": "Antonio Levi",
         "age": 22,
         "group": "React Advanced",
-        "iActive": true
+        "isActive": true
     },
     {
         "id": 3,
         "name": "Michael David",
         "age": 21,
         "group": "React Basics",
-        "iActive": false
+        "isActive": false
     },
     {
         "id": 4,
