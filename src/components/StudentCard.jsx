@@ -1,5 +1,7 @@
 import StatusBadge from "./StatusBadge.jsx";
-function StudentCard({ student }) {
+function StudentCard({ student, onDelete }) {
+
+
 
     return (
         <div>
@@ -7,6 +9,11 @@ function StudentCard({ student }) {
             <p>Age: {student.age}</p>
             <p>Group: {student.group}</p>
             <StatusBadge isActive={student.isActive} />
+            <p>
+            <button onClick={() => onDelete(student.id)}>
+                Delete
+            </button>
+            </p>
         </div>
     );
 
